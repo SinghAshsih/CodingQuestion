@@ -1,0 +1,30 @@
+         and operator &
+		 or operator | (pipe)
+		 xor ^
+		 not ~
+		 leftShift <<
+		 rightshift >>
+		 unsigned rightshift >>> 
+		 
+		
+And operator (&)
+and means multiply (if both the values are true )  
+1 =true
+0=false
+ 100
+ 101
+=100
+
+
+OrOperator (if it get one 1 the result is 1)
+ 100
+ 101
+=101
+
+
+Xor (^)
+if both the bits are different then the result is 1
+
+NotOperator (tilted )
+convert the bits 
+if there is zero then it convert to 1 and vice versa
