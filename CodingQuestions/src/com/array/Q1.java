@@ -1,6 +1,6 @@
 package com.array;
 
-import java.util.Arrays;
+import java.util.HashMap;
 
 public class Q1 {
 	public static void main(String[] args) {
@@ -9,15 +9,16 @@ public class Q1 {
 		 * another one is containing 10 elements. Can you assign an array of 100
 		 * elements to an array of 10 elements?
 		 */
+		HashMap<Integer,Integer>hash=new HashMap<>();
 		int[] a = new int[100];
 		int[] b = new int[10];
-		System.out.println(Arrays.toString(a));
+		System.out.println(a.hashCode());
 		System.out.println("============================");
-		System.out.println(Arrays.toString(b));
+		System.out.println(b.hashCode());
 		b=a;
-		System.out.println(Arrays.toString(b));
+		System.out.println(a.hashCode());
 		System.out.println("============================");
-		System.out.println(Arrays.toString(a));
+		System.out.println(b.hashCode());
 
 	}
 }
