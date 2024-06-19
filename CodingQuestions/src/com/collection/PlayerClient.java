@@ -1,6 +1,7 @@
 package com.collection;
 
 import java.util.Set;
+
 import java.util.TreeSet;
 
 public class PlayerClient {
@@ -38,6 +39,8 @@ public class PlayerClient {
 		for (Player player : set3) {
 			System.out.println(player);
 		}
+		
+		
 
 	}
 }
